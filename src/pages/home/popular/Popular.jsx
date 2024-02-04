@@ -21,7 +21,7 @@ const Popular= ()=> {
             <span className="carouselTittle">Whats Popular</span>
             <SwitchTabs data={["Movie", "TV Show"]} onTabChange={onTabChange}/>
         </ContentWrapper>
-        <Carousel data = {data?.results} loading= {loading} endPoint={showType}/>
+        <Carousel data = {data?.results} loading= {loading} endpoint={showType}/>
     </div>
   )
 }
